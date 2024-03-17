@@ -11,7 +11,7 @@ This is a simple module, containing just two functions.
 
 ## Installation
 You can install `Rainbow` via pip:
-- pip install rainbow
+- pip install rainbow_prompt
 
 ## Usage
 
