@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rainbow"
+name = "rainbow_prompt"
 version = "0.0.1"
 description = "This package aims to facilitate and simplify the use of colors in the prompt with python."
 authors = ["David Marques <davidmarques99@hotmail.com>"]
