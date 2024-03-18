@@ -24,15 +24,12 @@ COLORS = {
 }
 
 
-def print_colored_string(text, color_name):
-    text = text
+def cstring(text, color_name):
     color_code = COLORS.get(color_name.lower(), '')
         
     return print(f"{color_code}{text}{COLORS['reset']}")
 
-
-def return_colored_string(text, color_name):
-    text = text
+def rc_string(text, color_name):
     color_code = COLORS.get(color_name.lower(), '')
         
     return f"{color_code}{text}{COLORS['reset']}"

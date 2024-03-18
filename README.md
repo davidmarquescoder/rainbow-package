@@ -7,8 +7,6 @@ This package aims to make it easier to use colors in the prompt with Python.
 
 Say goodbye to those horrible-to-remember character sets that we had to use to insert colors into the prompt. With this module, coloring the prompt will be quick and easy.
 
-This is a simple module, containing just two functions.
-
 ## Installation
 You can install `Rainbow` via pip:
 - pip install rainbow_prompt
@@ -17,17 +15,17 @@ You can install `Rainbow` via pip:
 
 ### Importing the Module
 ```python
-from rainbow import print_colored_string, return_colored_string
+from rainbow import cstring, rc_string
 ```
 
 ### Printing Colored Text
 ```python
-print_colored_string("Hello, World!", "green")
+cstring("Hello, World!", "green")
 ```
 
 ### Returning Colored Text
 ```python
-colored_text = return_colored_string("Hello, World!", "red")
+colored_text = rc_string("Hello, World!", "red")
 print(colored_text)
 ```
 
@@ -57,13 +55,16 @@ Available Styles:
 - style_sublinhado
 - style_invertido
 
-Note: Make sure to use these color names exactly as specified.
+> Note: Make sure to use these color names exactly as specified.
 
 ## Example
 ```python
-from ColoredPrompt import print_colored_string
+from rainbow import cstring
 
-print_colored_string("This is a colored prompt.", "blue")
-print_colored_string("Error!", "red")
-print_colored_string("Warning!", "yellow")
+cstring("This is a colored prompt.", "blue")
+cstring("Error!", "red")
+cstring("Warning!", "yellow")
 ```
+
+[GitHub](https://github.com/davidmarquescoder/rainbow-package)
+[Issues](https://github.com/davidmarquescoder/rainbow-package/issues)
